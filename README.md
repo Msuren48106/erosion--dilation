@@ -1,4 +1,7 @@
-# Exp-9-Implementation-of-Erosion-and-Dilation
+# Implementation-of-Erosion-and-Dilation
+## DEVELOPED BY :M.suren.
+## REG NO : 212223230222
+
 ## Aim
 To implement Erosion and Dilation using Python and OpenCV.
 ## Software Required
@@ -26,9 +29,7 @@ Display the original and processed images using plt.imshow() with proper axis co
 ### Step 7:
 
 Finalize by calling plt.show() to display all images in a single figure for easy visualization and comparison.
-
-## REG NO: 212223230222
-## NAME : M.SUREN.
+ 
 ## Program:
 ### Import the necessary packages
 ```
@@ -41,7 +42,7 @@ image = np.zeros((500, 500, 3), dtype="uint8")
 
 ### Create the Text using cv2.putText
 ```
-text = "M.SUREN."
+text = "AJAYRAJA RATHINAM"
 font = cv2.FONT_HERSHEY_SIMPLEX
 cv2.putText(image, text, (50, 150), font, 2, (255, 255, 255), 3)
 ```
@@ -90,9 +91,7 @@ plt.axis("off")
 <br>
 <br>
 <br>
-
-<img width="516" height="515" alt="Screenshot 2026-03-21 122240" src="https://github.com/user-attachments/assets/ab316f8b-78cc-487e-bce8-0bb88cbd7fe5" />
-
+<img width="499" height="516" alt="Screenshot 2026-03-24 103022" src="https://github.com/user-attachments/assets/cb2a0750-3929-4e8d-a8e5-9f06cd1d7528" />
 
 <br>
 <br>
@@ -101,8 +100,9 @@ plt.axis("off")
 ### Display the Eroded Image
 <br>
 <br>
-<img width="511" height="501" alt="Screenshot 2026-03-21 122247" src="https://github.com/user-attachments/assets/e4f0050c-5054-4d80-a12d-1e4526345998" />
+<br>
 
+<img width="514" height="511" alt="Screenshot 2026-03-24 103030" src="https://github.com/user-attachments/assets/a55af0a6-a65f-4ded-a6c9-fbe9b1d4431e" />
 
 
 <br>
@@ -113,8 +113,8 @@ plt.axis("off")
 <br>
 <br>
 <br>
-<img width="529" height="507" alt="Screenshot 2026-03-21 122255" src="https://github.com/user-attachments/assets/b81c7333-d8ef-49be-b991-427fb47d3335" />
 
+<img width="525" height="519" alt="Screenshot 2026-03-24 103040" src="https://github.com/user-attachments/assets/bddb0009-0b89-4541-8dea-d2445462a421" />
 
 
 <br>
